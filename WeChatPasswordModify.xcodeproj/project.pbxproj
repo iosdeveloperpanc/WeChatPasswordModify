@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AB76FA11E7822FF00715E52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB76FA01E7822FF00715E52 /* main.m */; };
+		3AB76FA41E7822FF00715E52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB76FA31E7822FF00715E52 /* AppDelegate.m */; };
+		3AB76FAA1E7822FF00715E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB76FA81E7822FF00715E52 /* Main.storyboard */; };
+		3AB76FAC1E78230000715E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB76FAB1E78230000715E52 /* Assets.xcassets */; };
+		3AB76FAF1E78230000715E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AB76FAD1E78230000715E52 /* LaunchScreen.storyboard */; };
+		3AB76FBA1E78230000715E52 /* WeChatPasswordModifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB76FB91E78230000715E52 /* WeChatPasswordModifyTests.m */; };
+		3AB76FC51E78230000715E52 /* WeChatPasswordModifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB76FC41E78230000715E52 /* WeChatPasswordModifyUITests.m */; };
+		3AB76FDB1E78291200715E52 /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB76FDA1E78291200715E52 /* Component.m */; };
+		3AB76FDE1E782A1500715E52 /* ModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB76FDD1E782A1500715E52 /* ModifyViewController.m */; };
+		3AB76FE21E782A3F00715E52 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB76FE01E782A3F00715E52 /* ViewController.m */; };
+		3AB76FE31E782A3F00715E52 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AB76FE11E782A3F00715E52 /* ViewController.xib */; };
+		3AB76FE61E782EDE00715E52 /* ElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB76FE51E782EDE00715E52 /* ElementView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AB76FB61E78230000715E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB76F941E7822FF00715E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB76F9B1E7822FF00715E52;
+			remoteInfo = WeChatPasswordModify;
+		};
+		3AB76FC11E78230000715E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AB76F941E7822FF00715E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AB76F9B1E7822FF00715E52;
+			remoteInfo = WeChatPasswordModify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3AB76F9C1E7822FF00715E52 /* WeChatPasswordModify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatPasswordModify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB76FA01E7822FF00715E52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AB76FA21E7822FF00715E52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AB76FA31E7822FF00715E52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AB76FA91E7822FF00715E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3AB76FAB1E78230000715E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AB76FAE1E78230000715E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3AB76FB01E78230000715E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB76FB51E78230000715E52 /* WeChatPasswordModifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatPasswordModifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB76FB91E78230000715E52 /* WeChatPasswordModifyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatPasswordModifyTests.m; sourceTree = "<group>"; };
+		3AB76FBB1E78230000715E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB76FC01E78230000715E52 /* WeChatPasswordModifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatPasswordModifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AB76FC41E78230000715E52 /* WeChatPasswordModifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatPasswordModifyUITests.m; sourceTree = "<group>"; };
+		3AB76FC61E78230000715E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB76FD91E78291200715E52 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		3AB76FDA1E78291200715E52 /* Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Component.m; sourceTree = "<group>"; };
+		3AB76FDC1E782A1500715E52 /* ModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyViewController.h; sourceTree = "<group>"; };
+		3AB76FDD1E782A1500715E52 /* ModifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyViewController.m; sourceTree = "<group>"; };
+		3AB76FDF1E782A3F00715E52 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3AB76FE01E782A3F00715E52 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3AB76FE11E782A3F00715E52 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		3AB76FE41E782EDE00715E52 /* ElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementView.h; sourceTree = "<group>"; };
+		3AB76FE51E782EDE00715E52 /* ElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AB76F991E7822FF00715E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB76FB21E78230000715E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB76FBD1E78230000715E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AB76F931E7822FF00715E52 = {
+			isa = PBXGroup;
+			children = (
+				3AB76F9E1E7822FF00715E52 /* WeChatPasswordModify */,
+				3AB76FB81E78230000715E52 /* WeChatPasswordModifyTests */,
+				3AB76FC31E78230000715E52 /* WeChatPasswordModifyUITests */,
+				3AB76F9D1E7822FF00715E52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AB76F9D1E7822FF00715E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AB76F9C1E7822FF00715E52 /* WeChatPasswordModify.app */,
+				3AB76FB51E78230000715E52 /* WeChatPasswordModifyTests.xctest */,
+				3AB76FC01E78230000715E52 /* WeChatPasswordModifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AB76F9E1E7822FF00715E52 /* WeChatPasswordModify */ = {
+			isa = PBXGroup;
+			children = (
+				3AB76FE91E78383200715E52 /* Controller */,
+				3AB76FE81E78382000715E52 /* View */,
+				3AB76FE71E78380800715E52 /* Model */,
+				3AB76FA21E7822FF00715E52 /* AppDelegate.h */,
+				3AB76FA31E7822FF00715E52 /* AppDelegate.m */,
+				3AB76FA81E7822FF00715E52 /* Main.storyboard */,
+				3AB76FAB1E78230000715E52 /* Assets.xcassets */,
+				3AB76FAD1E78230000715E52 /* LaunchScreen.storyboard */,
+				3AB76FB01E78230000715E52 /* Info.plist */,
+				3AB76F9F1E7822FF00715E52 /* Supporting Files */,
+			);
+			path = WeChatPasswordModify;
+			sourceTree = "<group>";
+		};
+		3AB76F9F1E7822FF00715E52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AB76FA01E7822FF00715E52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AB76FB81E78230000715E52 /* WeChatPasswordModifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB76FB91E78230000715E52 /* WeChatPasswordModifyTests.m */,
+				3AB76FBB1E78230000715E52 /* Info.plist */,
+			);
+			path = WeChatPasswordModifyTests;
+			sourceTree = "<group>";
+		};
+		3AB76FC31E78230000715E52 /* WeChatPasswordModifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AB76FC41E78230000715E52 /* WeChatPasswordModifyUITests.m */,
+				3AB76FC61E78230000715E52 /* Info.plist */,
+			);
+			path = WeChatPasswordModifyUITests;
+			sourceTree = "<group>";
+		};
+		3AB76FE71E78380800715E52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AB76FD91E78291200715E52 /* Component.h */,
+				3AB76FDA1E78291200715E52 /* Component.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3AB76FE81E78382000715E52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3AB76FE41E782EDE00715E52 /* ElementView.h */,
+				3AB76FE51E782EDE00715E52 /* ElementView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3AB76FE91E78383200715E52 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3AB76FDF1E782A3F00715E52 /* ViewController.h */,
+				3AB76FE01E782A3F00715E52 /* ViewController.m */,
+				3AB76FE11E782A3F00715E52 /* ViewController.xib */,
+				3AB76FDC1E782A1500715E52 /* ModifyViewController.h */,
+				3AB76FDD1E782A1500715E52 /* ModifyViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AB76F9B1E7822FF00715E52 /* WeChatPasswordModify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB76FC91E78230000715E52 /* Build configuration list for PBXNativeTarget "WeChatPasswordModify" */;
+			buildPhases = (
+				3AB76F981E7822FF00715E52 /* Sources */,
+				3AB76F991E7822FF00715E52 /* Frameworks */,
+				3AB76F9A1E7822FF00715E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChatPasswordModify;
+			productName = WeChatPasswordModify;
+			productReference = 3AB76F9C1E7822FF00715E52 /* WeChatPasswordModify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AB76FB41E78230000715E52 /* WeChatPasswordModifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB76FCC1E78230000715E52 /* Build configuration list for PBXNativeTarget "WeChatPasswordModifyTests" */;
+			buildPhases = (
+				3AB76FB11E78230000715E52 /* Sources */,
+				3AB76FB21E78230000715E52 /* Frameworks */,
+				3AB76FB31E78230000715E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB76FB71E78230000715E52 /* PBXTargetDependency */,
+			);
+			name = WeChatPasswordModifyTests;
+			productName = WeChatPasswordModifyTests;
+			productReference = 3AB76FB51E78230000715E52 /* WeChatPasswordModifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AB76FBF1E78230000715E52 /* WeChatPasswordModifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB76FCF1E78230000715E52 /* Build configuration list for PBXNativeTarget "WeChatPasswordModifyUITests" */;
+			buildPhases = (
+				3AB76FBC1E78230000715E52 /* Sources */,
+				3AB76FBD1E78230000715E52 /* Frameworks */,
+				3AB76FBE1E78230000715E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AB76FC21E78230000715E52 /* PBXTargetDependency */,
+			);
+			name = WeChatPasswordModifyUITests;
+			productName = WeChatPasswordModifyUITests;
+			productReference = 3AB76FC01E78230000715E52 /* WeChatPasswordModifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AB76F941E7822FF00715E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = estar;
+				TargetAttributes = {
+					3AB76F9B1E7822FF00715E52 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BGV8643Z67;
+						ProvisioningStyle = Automatic;
+					};
+					3AB76FB41E78230000715E52 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BGV8643Z67;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AB76F9B1E7822FF00715E52;
+					};
+					3AB76FBF1E78230000715E52 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BGV8643Z67;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3AB76F9B1E7822FF00715E52;
+					};
+				};
+			};
+			buildConfigurationList = 3AB76F971E7822FF00715E52 /* Build configuration list for PBXProject "WeChatPasswordModify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AB76F931E7822FF00715E52;
+			productRefGroup = 3AB76F9D1E7822FF00715E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AB76F9B1E7822FF00715E52 /* WeChatPasswordModify */,
+				3AB76FB41E78230000715E52 /* WeChatPasswordModifyTests */,
+				3AB76FBF1E78230000715E52 /* WeChatPasswordModifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AB76F9A1E7822FF00715E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB76FAF1E78230000715E52 /* LaunchScreen.storyboard in Resources */,
+				3AB76FAC1E78230000715E52 /* Assets.xcassets in Resources */,
+				3AB76FE31E782A3F00715E52 /* ViewController.xib in Resources */,
+				3AB76FAA1E7822FF00715E52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB76FB31E78230000715E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB76FBE1E78230000715E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB76F981E7822FF00715E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB76FDE1E782A1500715E52 /* ModifyViewController.m in Sources */,
+				3AB76FDB1E78291200715E52 /* Component.m in Sources */,
+				3AB76FA41E7822FF00715E52 /* AppDelegate.m in Sources */,
+				3AB76FA11E7822FF00715E52 /* main.m in Sources */,
+				3AB76FE21E782A3F00715E52 /* ViewController.m in Sources */,
+				3AB76FE61E782EDE00715E52 /* ElementView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB76FB11E78230000715E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB76FBA1E78230000715E52 /* WeChatPasswordModifyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AB76FBC1E78230000715E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB76FC51E78230000715E52 /* WeChatPasswordModifyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AB76FB71E78230000715E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB76F9B1E7822FF00715E52 /* WeChatPasswordModify */;
+			targetProxy = 3AB76FB61E78230000715E52 /* PBXContainerItemProxy */;
+		};
+		3AB76FC21E78230000715E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AB76F9B1E7822FF00715E52 /* WeChatPasswordModify */;
+			targetProxy = 3AB76FC11E78230000715E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3AB76FA81E7822FF00715E52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB76FA91E7822FF00715E52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3AB76FAD1E78230000715E52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AB76FAE1E78230000715E52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AB76FC71E78230000715E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3AB76FC81E78230000715E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AB76FCA1E78230000715E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BGV8643Z67;
+				INFOPLIST_FILE = WeChatPasswordModify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estar.WeChatPasswordModify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AB76FCB1E78230000715E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BGV8643Z67;
+				INFOPLIST_FILE = WeChatPasswordModify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estar.WeChatPasswordModify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3AB76FCD1E78230000715E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BGV8643Z67;
+				INFOPLIST_FILE = WeChatPasswordModifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estar.WeChatPasswordModifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeChatPasswordModify.app/WeChatPasswordModify";
+			};
+			name = Debug;
+		};
+		3AB76FCE1E78230000715E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BGV8643Z67;
+				INFOPLIST_FILE = WeChatPasswordModifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estar.WeChatPasswordModifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeChatPasswordModify.app/WeChatPasswordModify";
+			};
+			name = Release;
+		};
+		3AB76FD01E78230000715E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BGV8643Z67;
+				INFOPLIST_FILE = WeChatPasswordModifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estar.WeChatPasswordModifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeChatPasswordModify;
+			};
+			name = Debug;
+		};
+		3AB76FD11E78230000715E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BGV8643Z67;
+				INFOPLIST_FILE = WeChatPasswordModifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estar.WeChatPasswordModifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WeChatPasswordModify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AB76F971E7822FF00715E52 /* Build configuration list for PBXProject "WeChatPasswordModify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB76FC71E78230000715E52 /* Debug */,
+				3AB76FC81E78230000715E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AB76FC91E78230000715E52 /* Build configuration list for PBXNativeTarget "WeChatPasswordModify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB76FCA1E78230000715E52 /* Debug */,
+				3AB76FCB1E78230000715E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AB76FCC1E78230000715E52 /* Build configuration list for PBXNativeTarget "WeChatPasswordModifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB76FCD1E78230000715E52 /* Debug */,
+				3AB76FCE1E78230000715E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3AB76FCF1E78230000715E52 /* Build configuration list for PBXNativeTarget "WeChatPasswordModifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB76FD01E78230000715E52 /* Debug */,
+				3AB76FD11E78230000715E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AB76F941E7822FF00715E52 /* Project object */;
+}
